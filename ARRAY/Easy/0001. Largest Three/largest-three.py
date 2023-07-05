@@ -6,6 +6,7 @@ def findLargestThree(nums):
 
     if len(nums) < 3:
         print("Invalid Input!")
+        return
 
     largest = secondLargest = thirdLargest = -sys.maxsize
 
