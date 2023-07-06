@@ -1,13 +1,13 @@
 # Method 1
 
 def evenGreater(nums):
-    for i in range(1,len(nums)):
+    for i in range(1, len(nums)):
         if i % 2 == 0:
-            if(nums[i]<nums[i-1]):
-                nums[i-1], nums[i] = nums[i], nums[i-1]
+            if(nums[i] > nums[i - 1]):
+                nums[i - 1], nums[i] = nums[i], nums[i - 1]
         else: 
-            if(nums[i] > nums[i-1]):
-                nums[i-1], nums[i] = nums[i], nums[i-1]
+            if(nums[i] < nums[i - 1]):
+                nums[i - 1], nums[i] = nums[i], nums[i - 1]
     return nums
 
 nums = [3,5,1,8,9,6,4,7]
