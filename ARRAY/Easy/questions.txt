@@ -1,3 +1,4 @@
 Q1. Find the largest three elements in an array
 Q2. Find Second largest element in an array
 Q3. Move all zeroes to end of array
+Q4. Rearrange array such that even positioned are greater than odd
