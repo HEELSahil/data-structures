@@ -5,3 +5,4 @@ Q4. Rearrange array such that even positioned are greater than odd
 Q5. Rearrange array such that odd positioned are greater than even
 Q6. Rearrange a sorted array in maximum minimum form using Two Pointer Technique
 Q7. Segregate even and odd numbers
+Q8. Left array rotation by d positions
