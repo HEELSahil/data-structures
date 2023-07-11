@@ -8,7 +8,7 @@ def moveAllZeros(nums):
         if nums[i] != 0:
             nums[j], nums[i] = nums[i], nums[j]
             j += 1
-    return j
+    return nums
 
 nums = [10, 4, 3, 0, 50, 0, 23, 90]
 result = moveAllZeros(nums)
