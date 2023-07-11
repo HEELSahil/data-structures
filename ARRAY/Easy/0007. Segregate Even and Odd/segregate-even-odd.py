@@ -1,6 +1,6 @@
 # Method 1 using for loop
 
-def arrayEvenAndOdd(nums):
+def segregateEvenOdd(nums):
 
     j = 0
 
@@ -9,6 +9,10 @@ def arrayEvenAndOdd(nums):
             nums[i], nums[j] = nums[j], nums[i]
             j += 1
     return nums
+
+nums = [2,1,3,5,7,9,4,6,8,12]
+result = segregateEvenOdd(nums)
+print(result)
 
 
 # The time complexity of this solution is O(n) and the space complexity is O(1)
@@ -19,7 +23,7 @@ def arrayEvenAndOdd(nums):
 
 # Method 2 using while loop
 
-# def arrayEvenAndOdd(nums):
+# def segregateEvenOdd(nums):
 
 #     i = 0
 #     j = 0
@@ -33,7 +37,7 @@ def arrayEvenAndOdd(nums):
 #     return nums
 
 # nums = [2,1,3,5,7,9,4,6,8,12]
-# result = arrayEvenAndOdd(nums)
+# result = segregateEvenOdd(nums)
 # print(result)
 
 # The time complexity of this solution is O(n) and the space complexity is O(1)
