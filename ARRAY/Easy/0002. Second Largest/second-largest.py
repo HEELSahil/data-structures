@@ -18,7 +18,7 @@ def findSecondLargest(nums):
             secondLargest = i
     return secondLargest
 
-nums = [10]
+nums = [10, 4, 3, 50, 23, 90]
 result = findSecondLargest(nums)
 print(result)
 
@@ -31,16 +31,16 @@ print(result)
 
 # Using built-in sorting
 
-def findSecondLargest(nums):
+# def findSecondLargest(nums):
 
-    nums.sort()
-    nums.reverse()
+#     nums.sort()
+#     nums.reverse()
 
-    return nums[1]
+#     return nums[1]
 
-nums = [10, 4, 3, 50, 23, 90]
-result = findSecondLargest(nums)
-print(result)
+# nums = [10, 4, 3, 50, 23, 90]
+# result = findSecondLargest(nums)
+# print(result)
 
 
 # The time complexity of this solution is O(n log n) and the space complexity is O(1)
